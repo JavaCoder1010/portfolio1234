@@ -55,7 +55,19 @@ a.menuitem {
     transform: scale(1.30);
     transition: ease-in .4s;
 }
-main {
+
+#index, #sobremi{
+    padding-top: 14vh;
+    color: #fff;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+#index, #sobremi{
     padding-top: 14vh;
     color: #fff;
     width: 100%;
@@ -70,6 +82,7 @@ main h1 {
     font-size: 2.5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .portada {
@@ -269,4 +282,24 @@ main h1 {
 
 .enviar:hover {
     background-color: #218838;
+}
+
+#fotoportafolio{
+    padding-bottom: 5%;
+    width: 30%;
+    height: 30%;
+}
+
+#portadaportafolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 5%;
+}
+
+#contacto{
+    color: #fff;
+    padding-bottom: 5%;
+    width: 50%;
 }
